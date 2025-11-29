@@ -63,25 +63,25 @@ if (right_Answer_5.checked == true) {
 else{
     alert(" Q5 Answer Wong")
 }
-alert("your score is "+ score++)
+ alert("Your score is " + score);
 
-if (score <= 5) {
-    alert("Excellent")
-}
-// else if(score === 4){
-//     alert("Very Good")
-// }
-// else if (score === 3) {
-//     alert("Good")
-// }
-// else if (score === 2) {
-//     alert("Nice")
-// }
-// else if(score === 1){
-//     alert("Improvement")
-// }
-else{
-    alert("Bad Luck")
-}
+if (score === 5) {
+        alert("Excellent!");
+    } 
+    else if (score === 4) {
+        alert("Very Good!");
+    } 
+    else if (score === 3) {
+        alert("Good!");
+    } 
+    else if (score === 2) {
+        alert("Nice!");
+    } 
+    else if (score === 1) {
+        alert("Improvement Needed");
+    } 
+    else {
+        alert("Bad Luck");
+    }
 }
 
