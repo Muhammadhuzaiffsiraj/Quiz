@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h2>Total Marks = 5</h2>
+            <h1>QUIZ-APP</h1>
+            <h2>5 Question</h2>
+        </div>
+    </div>
+
+    <div class="quiz-box-1">
+        <div class="mini-container-1">
+            <p>1 Who is the founder of pakistan ?</p>
+            <input type="radio" name="question1" id="q-1a">Quaid-e-Azam</input> <br>
+            <input type="radio" name="question1" id="q-1b">Liaqat Ali Khan</input> <br>
+            <input type="radio" name="question1" id="q-1c">Huzaif Siraj</input> <br>
+            <input type="radio" name="question1" id="q-1d">None of the above</input> <br>
+        </div>
+    </div>
+    <br>
+
+    <div class="quiz-box-2">
+        <div class="mini-container-2">
+            <p>2 Who is the first prime minister of pakistan?</p>
+            <input type="radio" name="question2" id="q-2a">Quaid-e-Azam</input> <br>
+            <input type="radio" name="question2" id="q-2b">Liaqat Ali Khan</input> <br>
+            <input type="radio" name="question2" id="q-2c">Huzaif Siraj</input> <br>
+            <input type="radio" name="question2" id="q-2d">None of the above</input> <br>
+        </div>
+    </div>
+    <br>
+
+    <div class="quiz-box-3">
+        <div class="mini-container-3">
+            <p>3 Who is the founder of microsoft ?</p>
+            <input type="radio" name="question3" id="q-3a">Bill Gates</input> <br>
+            <input type="radio" name="question3" id="q-3b">Markzukerburg</input> <br>
+            <input type="radio" name="question3" id="q-3c">Huzaif Siraj</input> <br>
+            <input type="radio" name="question3" id="q-3d">None of the above</input> <br>
+        </div>
+    </div>
+   
+    <br>
+
+    <div class="quiz-box-4">
+        <div class="mini-container-4">
+            <p> 4 who is the founder of Facebook ?</p>
+            <input type="radio" name="question4" id="q-4a">Markzukerburg</input> <br>
+            <input type="radio" name="question4" id="q-4b">Elon Musk</input> <br>
+            <input type="radio" name="question4" id="q-4c">Huzaif Siraj</input> <br>
+            <input type="radio" name="question4" id="q-4d">None of the above</input> <br>
+        </div>
+    </div>
+<br>
+
+
+<div class="quiz-box-5">
+    <div class="mini-container-5">
+        <p> 5 who is the prime minister of pakistan ?</p>
+        <input type="radio" name="question5" id="q-5a">Shabaz Sharif</input> <br>
+        <input type="radio" name="question5" id="q-5b">Markzukerburg</input> <br>
+        <input type="radio" name="question5" id="q-5c">Huzaif Siraj</input> <br>
+        <input type="radio" name="question5" id="q-d">None of the above</input> <br>
+    </div>
+</div>
+
+    
+    
+    <div class="button">
+        <button onclick="check()" type="button" class="btn">Results</button>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 pl-5 pt-3 text-info ">Total Marks=5</div>
+            <div class="col-md-4"><h1 class="text-center text-danger">Quiz app</h1></div>
+            <div class="col-md-4 pl-5 pt-3">5 Question</div>
+        </div>
+    </div>
+    
+    <div class="q1 quizBox">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <p> 1 who is the founder of pakistan</p>
+                    <input name="question" id="q1-a" type="radio">Quaid-e-azam </input> <br>
+                    <input name="question" id="q1-b" type="radio">Liaquat Alikhan </input> <br>
+                    <input name="question" id="q1-c" type="radio"> Shahzaib siraj </input> <br>
+                    <input name="question" id="q1-d" type="radio"> none of the above </input> <br>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<br>
+    <div class="q1 quizBox">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <p> 2 who is the first prime minister of pakistan?</p>
+                    <input name="question2" id="q2-a" type="radio">Quaid-e-azam </input> <br>
+                    <input name="question2" id="q2-b" type="radio">Liaquat Alikhan </input> <br>
+                    <input name="question2" id="q2-c" type="radio"> Shahzaib siraj </input> <br>
+                    <input name="question2" id="q2-d" type="radio"> none of the above </input> <br>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<br>
+    <div class="q1 quizBox">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <p>3 who is the founder of microsoft</p>
+                    <input name="question3" id="q3-a" type="radio">Bill gates </input> <br>
+                    <input name="question3" id="q3-b" type="radio">Markzukerburg </input> <br>
+                    <input name="question3" id="q3-c" type="radio"> Shahzaib siraj </input> <br>
+                    <input name="question3" id="q3-d" type="radio"> none of the above </input> <br>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+
+
+    <div class="q1 quizBox">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <p>4 who is the founder of Facebook?</p>
+                    <input name="question4" id="q4-a" type="radio">Bill gates </input> <br>
+                    <input name="question4" id="q4-b" type="radio">Markzukerburg </input> <br>
+                    <input name="question4" id="q4-c" type="radio"> Shahzaib siraj </input> <br>
+                    <input name="question4" id="q4-d" type="radio"> none of the above </input> <br>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="q1 quizBox">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <p>5 who is the prime minister of pakistan?</p>
+                    <input name="questio5" id="q5-a" type="radio">Bill gates </input> <br>
+                    <input name="question5" id="q5-b" type="radio">Markzukerburg </input> <br>
+                    <input name="question5" id="q5-c" type="radio"> Shahzaib siraj </input> <br>
+                    <input name="question5" id="q5-d" type="radio"> Imran khan</input> <br>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center ">
+    <button onclick="check()" type="button" class="btn btn-primary btn-lg ml-5">Result</button>
+</div>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+</body>
+
+</html> -->
